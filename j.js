@@ -1,3 +1,4 @@
+$( document ).ready(function() {
 var moveForce = 30; // max popup movement in pixels
 var rotateForce = 20; // max popup rotation in deg
 
@@ -10,7 +11,9 @@ $(document).mousemove(function(e) {
     
   var docX = $(document).width();
     var docY = $(document).height();
+    $('.default').show();
     $('.spons').hide();
+  //  $('.spons').hide();
     var moveX = (e.pageX - docX/2) / (docX/2) * -moveForce;
     var moveY = (e.pageY - docY/2) / (docY/2) * -moveForce;
     
@@ -29,9 +32,10 @@ $(".s").click(function(){
 
    // $('.s').live('click',function(){
 
-
          $('.spons').show();
         $('.default').hide();
     //});
  
  });
+
+});
