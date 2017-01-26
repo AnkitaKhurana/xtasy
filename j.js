@@ -25,13 +25,13 @@ $(document).mousemove(function(e) {
 
 });
 //}
-function spons()
-{
-    $('.s').live('click',function(){
+$(".s").click(function(){
+
+   // $('.s').live('click',function(){
 
 
          $('.spons').show();
         $('.default').hide();
-    });
+    //});
  
- }
+ });
