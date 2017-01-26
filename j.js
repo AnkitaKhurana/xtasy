@@ -2,11 +2,12 @@ var moveForce = 30; // max popup movement in pixels
 var rotateForce = 20; // max popup rotation in deg
 
 
-//$(document).mousemove(function(e) {
- function start_first(mousemove e)
- {
+$(document).mousemove(function(e) {
+// function start_first(e)
+ //{
 
-
+//$(document).mousemove(function(event){ 
+    
   var docX = $(document).width();
     var docY = $(document).height();
     $('.spons').hide();
@@ -22,8 +23,8 @@ var rotateForce = 20; // max popup rotation in deg
         .css('transform', 'rotateX('+rotateX+'deg) rotateY('+rotateY+'deg)');
 
 
-
-}
+});
+//}
 function spons()
 {
     $('.s').live('click',function(){
