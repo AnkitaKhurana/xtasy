@@ -65,14 +65,16 @@ div#pics figure figcaption {
 
 
 #top-image {
-background:url('images/back1.jpg') -25px -50px;
+background:url('images/b.jpg') -25px -50px;
 position:fixed ;
 top:0;
 width:100%;
 z-index:0;
   height:100%;
-  
+
 }
+
+
 /*
 body {
   background-color: #e9eef2;
@@ -83,7 +85,8 @@ body {
 
 #nav-bar {
   zoom:1.5;
-  margin: 50px;
+  opacity: 0.9;
+    margin: 50px;
   max-width: 50px;
   border: 1px solid #bed1df;
   border-radius: 4%;
@@ -94,7 +97,10 @@ body {
 }
 
 li {
-   color: #bed1df;
+   /*color: #bed1df;
+   color: rgb(89, 3, 222);*/
+
+   color: rgb(169, 21, 68);
    margin: 0;
    font-family: 'Open Sans', sans-serif;
    font-size: 1.2em;
@@ -132,7 +138,8 @@ li.level-one:hover {
 }
 
 i {
-  color: #bed1df;
+  /*color: #bed1df;*/
+  color: rgb(169, 21, 68);
   margin: 25%;
 }
 
